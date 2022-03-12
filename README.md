@@ -20,9 +20,9 @@ MNT=/mnt
 
 ## Scripts
 
-- <recreate.sh>: Create a Btrfs filesystem with fscrypt enabled.
-- <mount.sh>: Mount the previously created filesystem and unlock the encrypted directory.
-- <lock.sh>: Lock the encrypted directory.
-- <unlock.sh>: Unlock the encrypted directory.
-- <smoke_test.sh>: Run basic tests on Btrfs with fscrypt.
-- <key.py>: Output the key used by the encrypted directory.
+- [`recreate.sh`](recreate.sh): Create a Btrfs filesystem with fscrypt enabled.
+- [`mount.sh`](mount.sh): Mount the previously created filesystem and unlock the encrypted directory.
+- [`lock.sh`](lock.sh): Lock the encrypted directory.
+- [`unlock.sh`](unlock.sh): Unlock the encrypted directory.
+- [`smoke_test.sh`](smoke_test.sh): Run basic tests on Btrfs with fscrypt.
+- [`key.py`](key.py): Output the key used by the encrypted directory.
